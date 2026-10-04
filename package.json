@@ -1,0 +1,29 @@
+{
+  "name": "job-posting-intelligence-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariamkidanemariam/job-posting-intelligence-scraper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ariamkidanemariam/job-posting-intelligence-scraper/issues"
+  },
+  "homepage": "https://github.com/ariamkidanemariam/job-posting-intelligence-scraper#readme",
+  "dependencies": {
+    "playwright": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
