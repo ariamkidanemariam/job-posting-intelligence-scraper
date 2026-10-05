@@ -1,0 +1,538 @@
+[
+  {
+    "job_id": "5569916",
+    "title": "Accountant",
+    "predicted_skills": [
+      "NetSuite",
+      "IFRS",
+      "Accounting",
+      "Statutory reporting",
+      "Audit",
+      "Financial processes",
+      "Compliance",
+      "Regulations",
+      "Cloud computing",
+      "AI",
+      "IoT",
+      "Machine learning"
+    ]
+  },
+  {
+    "job_id": "7971310",
+    "title": "Accounts Payable Clerk",
+    "predicted_skills": [
+      "Excel",
+      "pivots",
+      "lookups",
+      "accounting systems",
+      "Finance"
+    ]
+  },
+  {
+    "job_id": "5243483",
+    "title": "Accounts Receivable Clerk",
+    "predicted_skills": [
+      "Enterprise level accounting system",
+      "Spreadsheets (pivots, lookups)",
+      "Open source software",
+      "Cloud computing",
+      "Data science",
+      "AI",
+      "IoT",
+      "Finance",
+      "Accounting",
+      "Credit control policy",
+      "Bank reconciliations",
+      "Balance sheet reconciliations"
+    ]
+  },
+  {
+    "job_id": "8002334",
+    "title": "Alliances & Channels Leader",
+    "predicted_skills": [
+      "alliance management",
+      "channel management",
+      "partner management",
+      "indirect sales",
+      "sales management",
+      "commercial experience",
+      "leadership",
+      "presentation",
+      "executive relationship building",
+      "data-driven decision-making",
+      "disciplined execution",
+      "global relations",
+      "open source",
+      "Ubuntu",
+      "enterprise infrastructure",
+      "cloud",
+      "AI",
+      "security",
+      "strategic partnerships",
+      "business development",
+      "go-to-market planning",
+      "sales engagement",
+      "technical enablement",
+      "joint marketing",
+      "business planning",
+      "operating cadence",
+      "pipeline governance",
+      "data-driven accountability"
+    ]
+  },
+  {
+    "job_id": "3433732",
+    "title": "Alliances Field Engineer",
+    "predicted_skills": [
+      "Linux",
+      "Kubernetes",
+      "Ceph",
+      "Software automation",
+      "Python",
+      "Bash",
+      "Cloud infrastructure",
+      "Cloud native development",
+      "Data center technologies",
+      "Networking",
+      "PostgreSQL",
+      "MongoDB",
+      "Kafka",
+      "Cassandra",
+      "NGINX",
+      "LXD",
+      "Juju",
+      "Snaps",
+      "Ubuntu",
+      "OpenStack",
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ]
+  },
+  {
+    "job_id": "6448444",
+    "title": "Associate Linux Support Engineer",
+    "predicted_skills": [
+      "Linux server administration",
+      "Programming fundamentals",
+      "Networking",
+      "Virtualization / Cloud computing concepts",
+      "Linux troubleshooting",
+      "Linux kernel troubleshooting",
+      "OS configuration",
+      "Root cause analysis",
+      "Problem qualification",
+      "Full resolution",
+      "Linux development process"
+    ]
+  },
+  {
+    "job_id": "7267406",
+    "title": "Beijing Office Administrator",
+    "predicted_skills": [
+      "Excel",
+      "English (spoken and written)",
+      "Office administration",
+      "Logistics",
+      "Event management",
+      "Expense management",
+      "Travel management",
+      "Communication",
+      "Interpersonal skills",
+      "Problem-solving",
+      "Attention to detail",
+      "Adaptability",
+      "Self-awareness",
+      "Thoughtfulness",
+      "Technical systems management",
+      "Cross-team collaboration",
+      "Cross-functional collaboration",
+      "Patience and tact in handling sensitive issues",
+      "Conflict resolution",
+      "Data entry",
+      "Supply management",
+      "Equipment management"
+    ]
+  },
+  {
+    "job_id": "6713184",
+    "title": "Business Development Representative",
+    "predicted_skills": [
+      "Outbound sales",
+      "SDR",
+      "Enterprise software sales",
+      "Technology sales",
+      "Sales development",
+      "Marketing",
+      "Research",
+      "Data analysis",
+      "Pipeline management",
+      "Lead generation",
+      "Account management",
+      "Negotiation",
+      "Communication",
+      "Cross-functional collaboration",
+      "Problem solving",
+      "Presentation",
+      "English (written and spoken)",
+      "Computer science",
+      "AI",
+      "Blockchain",
+      "IoT",
+      "Cloud computing",
+      "Linux",
+      "Data science"
+    ]
+  },
+  {
+    "job_id": "5798264",
+    "title": "Business Services Team Manager",
+    "predicted_skills": [
+      "project management",
+      "event management and operations",
+      "travel industry experience",
+      "budgeting",
+      "procurement",
+      "reporting",
+      "management",
+      "travel logistics",
+      "expense management",
+      "travel procurement",
+      "global distributed collaboration",
+      "duty of care health and safety",
+      "global multicultural organisation",
+      "academic track record",
+      "leadership and management",
+      "good judgement in matters involving money and policy",
+      "in-person interactions",
+      "result-oriented"
+    ]
+  },
+  {
+    "job_id": "4124053",
+    "title": "C, Golang Software Engineer working on dqlite, a Raft extension for SQLite",
+    "predicted_skills": [
+      "C",
+      "Golang",
+      "Raft",
+      "Python",
+      "Asynchronous programming",
+      "Concurrency patterns"
+    ]
+  },
+  {
+    "job_id": "7982278",
+    "title": "Channel Partner Sales Executive",
+    "predicted_skills": [
+      "Open Source",
+      "Linux",
+      "Ubuntu",
+      "Software Sales",
+      "Technology Sales",
+      "Cloud Sales",
+      "Virtualization",
+      "Technical Software Solutions",
+      "Negotiation",
+      "Presentation",
+      "Interpersonal Skills",
+      "Productivity",
+      "Self-Discipline",
+      "Team Management",
+      "Long-term Relationship Development",
+      "Event Representation"
+    ]
+  },
+  {
+    "job_id": "6861186",
+    "title": "Channel Partner Sales Executive, Japan",
+    "predicted_skills": [
+      "software sales",
+      "technology sales",
+      "open source",
+      "Linux",
+      "Ubuntu",
+      "negotiation",
+      "closing sales",
+      "interpersonal skills",
+      "presentation skills",
+      "self-discipline",
+      "self-motivation",
+      "productivity",
+      "teamwork",
+      "distributed work environment",
+      "team sprint",
+      "innovation",
+      "strategic planning",
+      "customer discovery",
+      "customer presentation",
+      "channel strategy",
+      "partner onboarding",
+      "enablement",
+      "sales pipeline management",
+      "partner satisfaction",
+      "long-term relationship development"
+    ]
+  },
+  {
+    "job_id": "8001736",
+    "title": "Channel Partner Sales Executive, UKI",
+    "predicted_skills": [
+      "Open Source",
+      "Linux",
+      "Ubuntu",
+      "Cloud",
+      "Virtualization",
+      "Technical Software Solutions",
+      "Sales",
+      "Technology Sales",
+      "Negotiation",
+      "Closing Sales",
+      "Interpersonal Skills",
+      "Presentation Skills",
+      "Productivity",
+      "Self-Discipline",
+      "Self-Motivation",
+      "Long-term Relationship Development",
+      "Representing a Company at External Events",
+      "Software Sales",
+      "Prospecting",
+      "Personal Network Building",
+      "Channel Management",
+      "Sales Enablement",
+      "Go-to-Market Planning",
+      "Partner Onboarding",
+      "Communication"
+    ]
+  },
+  {
+    "job_id": "4934551",
+    "title": "Cloud Alliances Business Development Lead",
+    "predicted_skills": [
+      "open source software",
+      "software development",
+      "system architecture",
+      "marketing and go-to-market strategy",
+      "product management",
+      "program management",
+      "team leadership",
+      "cloud computing",
+      "artificial intelligence",
+      "Internet of Things",
+      "data science"
+    ]
+  },
+  {
+    "job_id": "4676649",
+    "title": "Cloud Engineering Manager",
+    "predicted_skills": [
+      "OpenStack",
+      "Linux system administration",
+      "Ubuntu/Debian",
+      "Python",
+      "Go",
+      "C",
+      "C++",
+      "Java",
+      "Agile software development",
+      "Cloud topologies",
+      "Distributed systems"
+    ]
+  },
+  {
+    "job_id": "6132532",
+    "title": "Cloud Field Engineer",
+    "predicted_skills": [
+      "Linux",
+      "cloud computing",
+      "Kubernetes",
+      "OpenStack",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Ceph",
+      "Hadoop",
+      "Spark",
+      "Python",
+      "cloud native operations",
+      "open source applications",
+      "networking",
+      "storage",
+      "applications"
+    ]
+  },
+  {
+    "job_id": "7410479",
+    "title": "Cloud Field Engineering Manager",
+    "predicted_skills": [
+      "cloud computing",
+      "Kubernetes",
+      "Openstack",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Ceph",
+      "Linux",
+      "networking",
+      "technical presales",
+      "Python",
+      "project management",
+      "leadership",
+      "communication",
+      "coaching",
+      "mentoring"
+    ]
+  },
+  {
+    "job_id": "6283017",
+    "title": "Cloud Professional Services Manager",
+    "predicted_skills": [
+      "Kubernetes",
+      "Openstack",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Ceph",
+      "Linux",
+      "Networking",
+      "Python",
+      "Technical sales"
+    ]
+  },
+  {
+    "job_id": "5915936",
+    "title": "Cloud Solutions Architect - Alliances",
+    "predicted_skills": [
+      "Linux",
+      "Kubernetes",
+      "Ceph",
+      "Python",
+      "Bash",
+      "Ubuntu",
+      "OpenStack",
+      "Kubeflow",
+      "Spark",
+      "PostgreSQL",
+      "MongoDB",
+      "Kafka",
+      "Cassandra",
+      "NGINX",
+      "LXD",
+      "Juju",
+      "Snaps"
+    ]
+  },
+  {
+    "job_id": "2456563",
+    "title": "Cloud Support Engineer",
+    "predicted_skills": [
+      "Linux",
+      "Cloud",
+      "Virtualization",
+      "KVM",
+      "OpenStack",
+      "Containers",
+      "Docker",
+      "LXD/LXC",
+      "Kubernetes",
+      "Storage Ecosystems",
+      "Block",
+      "Object",
+      "Network Storage",
+      "System Networking",
+      "Bonding",
+      "Firewalls",
+      "Bridging",
+      "Switching",
+      "MTU Tuning",
+      "Basic Programming",
+      "Problem Solving",
+      "Analytical Curiosity",
+      "Troubleshooting"
+    ]
+  },
+  {
+    "job_id": "8023546",
+    "title": "Cloud Support Engineer (London UK office)",
+    "predicted_skills": [
+      "Linux",
+      "Cloud",
+      "Virtualization",
+      "Containers",
+      "Docker",
+      "LXD/LXC",
+      "Kubernetes",
+      "Storage Ecosystems",
+      "Block Storage",
+      "Object Storage",
+      "Network Storage",
+      "Networking",
+      "Bonding",
+      "Firewalls",
+      "Bridging",
+      "Switching",
+      "MTU Tuning",
+      "Analytical Troubleshooting",
+      "Problem-Solving",
+      "Root-cause Analysis",
+      "Stack Traces",
+      "Logs",
+      "Basic Programming Logic"
+    ]
+  },
+  {
+    "job_id": "3275433",
+    "title": "Community Engineer (multiple roles and seniority levels)",
+    "predicted_skills": [
+      "developer tools",
+      "open source projects",
+      "kernel or userspace",
+      "DevOps",
+      "software development",
+      "testing and QA",
+      "package management",
+      "container technology",
+      "community management",
+      "Developer advocacy"
+    ]
+  },
+  {
+    "job_id": "5172247",
+    "title": "Containerization & Virtualisation Engineer",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "6943565",
+    "title": "Content marketing lead",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "8046372",
+    "title": "Content Marketing Manager",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "7980589",
+    "title": "Cost Accounting Manager",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "4439935",
+    "title": "C++/Rust Graphics and Windowing System Software Engineer - Mir",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "7548330",
+    "title": "Customer Success - Team Manager",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "7569126",
+    "title": "Dedicated Linux Desktop & Devices Support Engineer, Singapore",
+    "predicted_skills": []
+  },
+  {
+    "job_id": "6366166",
+    "title": "Dell Global Alliance Director",
+    "predicted_skills": []
+  }
+]
