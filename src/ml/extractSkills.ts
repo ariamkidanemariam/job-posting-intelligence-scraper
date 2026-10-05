@@ -1,50 +1,42 @@
-import { GoogleGenAI } from "@google/genai";
-import { config } from "dotenv";
-import { readFile, writeFile } from "fs/promises";
-
-config();
-
-const apiKey = process.env.GEMINI_API_KEY;
-
-if (!apiKey) {
-  throw new Error("GEMINI_API_KEY is not set");
-}
-
-const ai = new GoogleGenAI({ apiKey });
+import ollama from "ollama";
+import { readFile } from "fs/promises";
 
 type Job = {
   job_id: string;
   title: string;
   company: string;
-  location: string;
   description: string;
-  url: string;
-  first_published: string | null;
-  scraped_at: string;
 };
 
-type JobWithSkills = Job & {
-  skills: string[];
-};
+async function main() {
+  const rawData = await readFile("data/processed/jobs.json", "utf-8");
+  const jobs: Job[] = JSON.parse(rawData);
 
-const DELAY_MS = 1500;
+  const job = jobs[0];
 
-function sleep(ms: number) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+  console.log(`Testing Ollama on: ${job.title}`);
 
-async function extractSkills(job: Job): Promise<string[]> {
   const prompt = `
 You are extracting structured information from a job posting.
+Identify only the technical and professional skills that are explicitly
+required, preferred, or clearly stated as responsibilities in the job posting.
 
-Identify the technical and professional skills explicitly required
-or strongly indicated by the job posting.
+Do not infer skills from general business language.
 
-Rules:
-- Only include skills supported by the job description.
-- Do not invent skills.
-- Keep each skill concise.
-- Return only the requested structured object.
+Do not include:
+- broad concepts such as "finance" or "business"
+- personality traits
+- Use the terminology from the job posting when possible.
+- generic management concepts unless the job explicitly requires them
+- responsibilities that are not skills
+- skills that belong to other roles or departments
+
+Only extract skills that are explicitly mentioned in the job posting.
+Do not infer skills from context.
+
+{
+  "skills": ["skill 1", "skill 2", "skill 3"]
+}
 
 Job title:
 ${job.title}
@@ -53,10 +45,15 @@ Job description:
 ${job.description}
 `;
 
-  const response = await ai.interactions.create({
-    model: "gemini-3.7-flash",
-    input: prompt,
-    response_format: {
+  const response = await ollama.chat({
+    model: "llama3.2:3b",
+    messages: [
+      {
+        role: "user",
+        content: prompt,
+      },
+    ],
+    format: {
       type: "object",
       properties: {
         skills: {
@@ -70,49 +67,8 @@ ${job.description}
     },
   });
 
-  const result = JSON.parse(response.output_text);
-
-  return result.skills;
-}
-
-async function main() {
-  const rawData = await readFile("data/processed/jobs.json", "utf-8");
-  const jobs: Job[] = JSON.parse(rawData);
-
-  console.log(`Jobs to process: ${jobs.length}`);
-
-  const jobsWithSkills: JobWithSkills[] = [];
-
-  for (let i = 0; i < jobs.length; i++) {
-    const job = jobs[i];
-
-    console.log(`[${i + 1}/${jobs.length}] ${job.title}`);
-
-    try {
-      const skills = await extractSkills(job);
-
-      jobsWithSkills.push({
-        ...job,
-        skills,
-      });
-
-      console.log(`  Extracted ${skills.length} skills`);
-    } catch (error) {
-      console.error(`  Failed: ${job.job_id}`, error);
-    }
-
-    await sleep(DELAY_MS);
-  }
-
-  await writeFile(
-    "data/processed/jobs_with_skills.json",
-    JSON.stringify(jobsWithSkills, null, 2),
-    "utf-8"
-  );
-
-  console.log(
-    `\nSaved ${jobsWithSkills.length} jobs to data/processed/jobs_with_skills.json`
-  );
+  console.log("\nOllama response:");
+  console.log(response.message.content);
 }
 
 main();
