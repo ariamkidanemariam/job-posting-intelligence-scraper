@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/ariamkidanemariam/job-posting-intelligence-scraper#readme",
   "dependencies": {
+    "@google/genai": "^2.27.0",
+    "dotenv": "^18.0.5",
     "playwright": "^1.63.0"
   },
   "devDependencies": {
